@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3b500;
+}
+
+.register-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    font-weight: bold;
+}
+
+.register-container h2 {
+    color: #000;
+    font-weight: bold;
+}
+
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button[type="submit"]:hover {
+    background-color: #444;
+}
+
+a {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.hidden {
+    display: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f3b500;
+    font-family: Arial, sans-serif;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    text-align: left;
+    margin: 10px 0 5px;
+    color: #333;
+}
+.login-link a{
+            color: #f3b500;
+            text-decoration: none;
+            font-weight: bold;
+        }
+.login-link a:hover {
+            text-decoration: underline;
+        }
+
+.dashboard-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+h2 {
+    font-weight: bold;
+    color: #444;
+}
+
+.info-section {
+    margin: 20px 0;
+    padding: 15px;
+    background: #e7f7fa;
+    border-radius: 10px;
+}
+
+.logout-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 20px;
+    background: #ff7043;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+.logout-btn:hover {
+    background: #ff5722;
+}

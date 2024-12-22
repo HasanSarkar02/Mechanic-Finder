@@ -1,0 +1,8 @@
+.card-header {
+    background: linear-gradient(90deg, #007bff, #0056b3);
+    color: #fff;
+}
+
+.profile-img img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
